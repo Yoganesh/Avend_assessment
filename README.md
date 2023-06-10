@@ -14,7 +14,7 @@
 
     docker run -d -p 6655:6655 --name=avendus_container avend_ass:latest
 
-###For logs
+### For logs
 
     docker logs -f <container-id>
     
