@@ -1,0 +1,9 @@
+fastapi
+pydantic
+bs4
+SQLAlchemy
+uvicorn
+schedule
+mysql-connector-python
+requests
+mysqlclient

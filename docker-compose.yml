@@ -1,0 +1,9 @@
+db:
+  image: mysql:latest
+  ports:
+    - "3306:3306"
+  environment:
+    - MYSQL_ROOT_PASSWORD="secret"
+    - MYSQL_USER="avend"
+    - MYSQL_PASSWORD="secret"
+    - MYSQL_DATABASE="avend_db"
